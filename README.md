@@ -29,7 +29,8 @@
 
 # Library
 ## Javascript
-* [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
+* [chart.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
+* [day.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/day.js)
 
 # OpenSource
 ## [SaltStack](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/SaltStack)
