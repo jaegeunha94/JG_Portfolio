@@ -5,18 +5,26 @@
 ![cloudhubb](./Project/CloudHub/cloudhub.PNG)
 
 
-# TroubleShoot
-## 🔖Docker
-### Error
-* [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/TroubleShoot/Docker/iptables_failed.md)
-
-# Database
+# 🔖Database
 * [InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB)
+
+# 🔖Docker
+## TroubleShoot
+* [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
+
 
 # 🔖Frontend
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
-* [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/PackageManager/Npm/Audit.md)
+* [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
 # 🔖Library
 ## Javascript
 * [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
+
+# 🔖Server
+## Nginx
+[Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
+
+[Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
+
+[Nginx KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/KeepAlived)
