@@ -1,27 +1,27 @@
 # JG_Portfolio
 
-# 📌Project
+# Project
 ## [1. CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
 ![cloudhubb](./Project/CloudHub/cloudhub.PNG)
 
 
-# 🔖Database
+# Database
 * [InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB)
 
-# 🔖Docker
+# Docker
 ## TroubleShoot
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
 
 
-# 🔖Frontend
+# Frontend
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
-# 🔖Library
+# Library
 ## Javascript
 * [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
 
-# 🔖Server
+# Server
 ## Nginx
 [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
 
