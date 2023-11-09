@@ -19,7 +19,7 @@
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
-# Kubernets
+# Kubernetes
 ## TroubleShoot
 * [Delete_Pod_Restart_Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
 * [JoinError](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
