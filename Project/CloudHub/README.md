@@ -296,13 +296,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
   * 기존 CPU, Memory, Disk를 보여주는 UI 앞에 추가
   * 보여줄 온도(Inlet/Insde/Outlet )를 설정할 수 있는 레이어 팝업 UI 추가
 * 커밋
-
-#### Topology 화면에서 IPMI를 통한 서버 별 온도 확인 위한 기능 추가 #421
-* 수정 내용
-  * Collector Server에서 수집한 IPMI 데이터로 서버별 온도(IPMI) 표시 기능 추가
-  * 기존 CPU, Memory, Disk를 보여주는 UI 앞에 추가할 예정
-  * 보여줄 온도(Inlet/Insde/Outlet )를 설정할 수 있는 레이어 팝업 UI 추가
-* 커밋
   * [At #421 Add Temperature monitoring feature in Topology](https://github.com/jaegeunha94/cloudhub/commit/e675461c431e55f9b0d67820ade67e55ca51f083)
   * [At #421 Add temperature status in topology](https://github.com/jaegeunha94/cloudhub/commit/29b855b318e65de5d7eb6e4262b512eca258c0e7)
   * [At #421 Modify max/min value from parseInt to parseFloat](https://github.com/snetsystems/cloudhub/commit/c79fe31cb5981d38b68f1735a54afb36a85a726d)
