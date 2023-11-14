@@ -1,3 +1,9 @@
+# InfluxDB
+* InfluxDB는 시계열 데이터베이스
+* Time Seriese Data(시계열 데이터)는 시간에 따라 저장된 데이터
+* 시계열 데이터베이스는 '하나 이상의 시간'과 '하나 이상의 값' 쌍을 통해 시계열을 저장하고 서비스하는데 최적화된 소프트웨어 시스템
+
+
 # InfluxDB User
 > 최초 생성한 User는 Admin user이다.
 > InfluxDB User는 두 가지로 형태로 나뉜다.
