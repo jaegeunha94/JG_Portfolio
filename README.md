@@ -59,6 +59,7 @@
 ## [Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf)
 * Configuration
     * [TagPass](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/Configuration/TagPass.md)
+* [Debug Environment for Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/DebugEnvironmentforTelegraf)
 * [IPMI](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/IPMI)
 
 # Security
