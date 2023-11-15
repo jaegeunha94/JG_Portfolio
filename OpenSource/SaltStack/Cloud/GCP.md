@@ -4,8 +4,7 @@
 * 버전 호환 주의
     * 1.0.0 < apache-libcloud  <=  2.6.0
 
-# Salt API 사용 예시
-## Used Provider configurations
+# Used Provider configurations
 ```
 [root@hostname cloud.providers.d]# pwd
 /etc/salt/cloud.providers.d
@@ -34,6 +33,7 @@ gce-cloudhub:
   driver: <driver>
 ```
 
+# Salt API 사용 예시
 ### Patch GCE Module
 * 아래 파일들을 패치한 후, salt-master 재시작.
     * salt/utils/cloud.py
