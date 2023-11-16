@@ -20,6 +20,7 @@
 # Docker
 ## TroubleShoot
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
+* [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
 * [Container Memory Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
