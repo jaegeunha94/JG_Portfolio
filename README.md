@@ -59,6 +59,7 @@
 ## [Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf)
 * Cloud
     * [AWS CloudWatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/Cloud/AWS_CloudWatch.md)
+    * [GCP Stackdriver](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/Cloud/GCP_Stackdriver.md)
 * Configuration
     * [TagPass](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/Configuration/TagPass.md)
 * [Debug Environment for Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/DebugEnvironmentforTelegraf)
