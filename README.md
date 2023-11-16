@@ -71,6 +71,11 @@
 * [Debug Environment for Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/DebugEnvironmentforTelegraf)
 * [IPMI](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/IPMI)
 
+# Programming Language
+## Python
+* TroubleShoot
+    * [Version_2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
+
 # Security
 ## PKI
 * [PKI](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Security/PKI)
