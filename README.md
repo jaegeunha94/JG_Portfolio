@@ -45,6 +45,10 @@
 ## ETCD
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
 
+## Kibana
+* VisualizationType
+    * [Bar Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kibana/VisualizationType/BarChart.md)
+
 ### TroubleShoot
 * [ClusterID_Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
