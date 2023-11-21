@@ -18,6 +18,13 @@
     * [ManagingUser](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
 # Docker
+## Docker-Compose
+* [Download](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download)
+
+### TroubleShoot
+* [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
+
+
 ## TroubleShoot
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
 * [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
