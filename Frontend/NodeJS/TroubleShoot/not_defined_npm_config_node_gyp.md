@@ -114,15 +114,17 @@ else
 # nvm
 ## 로컬에 설치된 nvm의 node-gyp 버전
 * 12.22.1:
-    * 5.1.0
-* 14.21.3
-    * 5.1.1
+    * `"node-gyp": "^5.1.0"`
+    * 로컬에 깔린 것은 5.1.1
+* 14.21.3: node-gyp의 버전은 "10.0.0"  "version": "10.0.0"
+    * 에러 메세지에 나온 PythonFinder.fail (C:\Users\Snetsystems\AppData\Roaming\nvm\v14.21.3\node_modules\npm\node_modules\node-gyp\lib\find-python.js:307:47)
 
 ## find-python
-> 5.1.1은 callback으로 에러 객체를 넘기는 것으로 보입니다.
+> 에러 처리하는 방식이 10.0.0은 throw, 5.1.1은 callback으로 에러 객체를 넘기는 것으로 보입니다.
 
-## 5.1.1과 5.1.0의 차이
-* [Commit 확인](https://github.com/nodejs/node-gyp/commits/v5.1.1/)
+### 파일 경로
+* nodejs 12: C:\Users\Snetsystems\AppData\Roaming\nvm\v12.22.1\node_modules\npm\node_modules\node-gyp\lib\find-python.js
+* nodejs 14: C:\Users\Snetsystems\AppData\Roaming\nvm\v14.21.3\node_modules\npm\node_modules\node-gyp\lib\find-python.js
 
 ### 10.0.0 find-python Github
 * find-python 에러 처리
