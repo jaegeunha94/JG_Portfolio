@@ -84,13 +84,12 @@ else
 
 # node-gyp
 * node-gyp는 C++로 작성된 네이티브 모듈을 Node.js에서 빌드하기 위해 사용되는 도구입니다. 
+    * cross-platform command-line tool 로, native addon modules를 컴파일 해주는 도구. 
 * node-gyp가 없는 경우, 주로 다음과 같은 상황이 발생할 수 있습니다:
-* cross-platform command-line tool 로, native addon modules를 컴파일 해주는 도구. 
-* native addon modules란 C나 C++로 작성된 동적 링크 공유 객체로 노드의 require() 함수에 의해 로드 되어 일반적인 노드 모듈처럼 사용됨
 
 ## 빌드시 특이사항
 * Node-gyp는 Node.js 자체를 빌드하는 데 사용되진 않음.
-* node-gyp가 nodejs 버전에 필요한 개발 파일 또는 헤더를 알아서 다운하기 때문에 버전에 관계없이 여러 버전에서 사용 가능!
+* node-gyp가 nodejs 버전에 필요한 개발 파일 또는 헤더를 알아서 다운하기 때문에 버전에 관계없이 여러 버전에서 사용 가능
 
 ## node-gyp 의존성
 * node-gyp는 python과 visual studio build tools에 의존
@@ -120,9 +119,11 @@ else
 * 14.21.3: node-gyp의 버전은 "10.0.0"  "version": "10.0.0"
 
 ## find-python
+> 에러 처리하는 방식이 10.0.0은 throw, 5.1.1은 callback으로 에러 객체를 넘기는 것으로 보입니다.
+
 ### 10.0.0 find-python Github
 * find-python 에러 처리
-    * `throw new Error('not a Python executable')`
+    * `throw new Error('Could not find any Python installation to use')`
 
 ### 5.1.1  find-python Github 
 * find-python 에러 처리
