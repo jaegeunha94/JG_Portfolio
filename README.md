@@ -38,6 +38,10 @@
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
+## NodeJS
+### NodeJS TroubleShoot
+* [not_defined_npm_config_node_gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
+
 # Kubernetes
 ## TroubleShoot
 * [Delete_Pod_Restart_Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
