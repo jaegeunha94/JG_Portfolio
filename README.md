@@ -87,8 +87,8 @@
 * [Canvas](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/HTML/Canvas/README.md)
 
 ## Python
-* TroubleShoot
-    * [Version_2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
+### TroubleShoot
+* [Version_2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
 
 # Security
 ## PKI
