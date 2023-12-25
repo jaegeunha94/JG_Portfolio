@@ -14,12 +14,12 @@
 * User
     * [ManagingUser](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
-### TroubleShoot
+### InfluxDB TroubleShoot
 * [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
 * [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 
 # Docker
-## TroubleShoot
+## Docker TroubleShoot
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
 * [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
 * [Container Memory Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
@@ -29,7 +29,7 @@
 ## Docker-Compose
 * [Download](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download)
 
-### TroubleShoot
+### Docker-Compose TroubleShoot
 * [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
 
 # Frontend
@@ -43,7 +43,7 @@
 * [not_defined_npm_config_node_gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
 
 # Kubernetes
-## TroubleShoot
+## Kubernetes TroubleShoot
 * [Delete_Pod_Restart_Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
 * [JoinError](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
 * [Reset](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Reset.md)
@@ -58,7 +58,7 @@
 ## ETCD
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
 
-### TroubleShoot
+### ETCD TroubleShoot
 * [ClusterID_Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## Kibana
@@ -87,7 +87,7 @@
 * [Canvas](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/HTML/Canvas/README.md)
 
 ## Python
-### TroubleShoot
+### Python TroubleShoot
 * [Version_2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
 
 # Security
