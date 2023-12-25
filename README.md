@@ -18,6 +18,12 @@
 * [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
 * [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 
+## Oracle
+### Oracle TroubleShoot
+* [CheckInstanceName](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/CheckInstanceName.md)
+* [Listener_supports_no_services](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/Listener_supports_no_services.md)
+
+
 # Docker
 ## Docker TroubleShoot
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
