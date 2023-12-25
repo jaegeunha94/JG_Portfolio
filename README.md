@@ -58,12 +58,12 @@
 ## ETCD
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
 
+### TroubleShoot
+* [ClusterID_Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
+
 ## Kibana
 * VisualizationType
     * [Bar Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kibana/VisualizationType/BarChart.md)
-
-### TroubleShoot
-* [ClusterID_Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## [SaltStack](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/SaltStack)
 * Cloud
