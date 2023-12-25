@@ -11,26 +11,26 @@
 * [Query](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/Query)
 * Subscription
     * [ManagesubscriptionsinInfluxDB](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/Subscription/ManagesubscriptionsinInfluxDB.md)
-* TroubleShoot
-    * [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
-    * [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 * User
     * [ManagingUser](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
-# Docker
-## Docker-Compose
-* [Download](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download)
-
 ### TroubleShoot
-* [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
+* [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
+* [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 
-
+# Docker
 ## TroubleShoot
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
 * [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
 * [Container Memory Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
 * [Dangling_Image](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
+
+## Docker-Compose
+* [Download](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download)
+
+### TroubleShoot
+* [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
 
 # Frontend
 * [Engyme](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Test/Jest/Engyme)
