@@ -111,3 +111,6 @@
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
 * [Nginx KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/KeepAlived)
+
+### Nginx TroubleShoot
+* [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
