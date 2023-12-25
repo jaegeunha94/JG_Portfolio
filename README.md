@@ -18,6 +18,10 @@
 * [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
 * [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 
+## MariaDB
+### MariaDB TroubleShoot
+* [Too Many Connections](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/MariaDB/TroubleShoot/TooManyConnections.md)
+
 ## Oracle
 ### Oracle TroubleShoot
 * [CheckInstanceName](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/CheckInstanceName.md)
