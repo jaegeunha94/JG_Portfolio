@@ -49,6 +49,8 @@
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
 ## NodeJS
+* [Conda Environment](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/CondaEnvironment)
+
 ### NodeJS TroubleShoot
 * [not_defined_npm_config_node_gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
 
