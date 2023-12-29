@@ -52,6 +52,7 @@
 * [Conda Environment](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/CondaEnvironment)
 
 ### NodeJS TroubleShoot
+* [could not find a version of VisualStudio2017](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/couldnotfindaversionofVisualStudio2017.md)
 * [not_defined_npm_config_node_gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
 
 # Kubernetes
