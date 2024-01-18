@@ -121,4 +121,4 @@
 # Virtual
 ## Oracle VM VirtualBox
 ### Oracle VM VirtualBox TroubleShoot
-* [Host-Only Network Adapter Error](https://github.com/jaegeunha94/JG_Portfolio/Virtual/OracleVMVirtualBox/TroubleShoot/Host-OnlyNetworkAdapterError.md)
+* [Host-Only Network Adapter Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Virtual/OracleVMVirtualBox/TroubleShoot/Host-OnlyNetworkAdapterError.md)
