@@ -117,3 +117,8 @@
 
 ### Nginx TroubleShoot
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
+
+# Virtual
+## Oracle VM VirtualBox
+### Oracle VM VirtualBox TroubleShoot
+* [Host-Only Network Adapter Error](https://github.com/jaegeunha94/JG_Portfolio/Virtual/OracleVMVirtualBox/TroubleShoot/Host-OnlyNetworkAdapterError.md)
