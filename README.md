@@ -33,7 +33,7 @@
 * [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
 * [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
 * [Container Memory Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
-* [Dangling_Image](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
+* [Dangling Image](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
 
 ## Docker-Compose
@@ -57,10 +57,10 @@
 
 # Kubernetes
 ## Kubernetes TroubleShoot
-* [Delete_Pod_Restart_Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
-* [JoinError](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
+* [Delete Pod Restart Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
+* [Join Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
 * [Reset](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Reset.md)
-* [TLS_Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/TLS_Error.md)
+* [TLS Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/TLS_Error.md)
 
 # Library
 ## Javascript
@@ -72,7 +72,7 @@
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
 
 ### ETCD TroubleShoot
-* [ClusterID_Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
+* [ClusterID Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## Kibana
 * VisualizationType
