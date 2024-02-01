@@ -10,13 +10,13 @@
 * [Curl](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/Curl)
 * [Query](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/Query)
 * Subscription
-    * [ManagesubscriptionsinInfluxDB](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/Subscription/ManagesubscriptionsinInfluxDB.md)
+    * [Manage subscriptions in InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/Subscription/ManagesubscriptionsinInfluxDB.md)
 * User
-    * [ManagingUser](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
+    * [Managing User](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
 ### InfluxDB TroubleShoot
-* [RetentionPolicy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
-* [TagValuesNotExpiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
+* [Retention Policy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
+* [Tag Values Not Expiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 
 ## MariaDB
 ### MariaDB TroubleShoot
@@ -24,8 +24,8 @@
 
 ## Oracle
 ### Oracle TroubleShoot
-* [CheckInstanceName](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/CheckInstanceName.md)
-* [Listener_supports_no_services](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/Listener_supports_no_services.md)
+* [Check Instance Name](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/CheckInstanceName.md)
+* [Listener supports no services](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/Listener_supports_no_services.md)
 
 
 # Docker
@@ -53,7 +53,7 @@
 
 ### NodeJS TroubleShoot
 * [could not find a version of VisualStudio2017](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/couldnotfindaversionofVisualStudio2017.md)
-* [not_defined_npm_config_node_gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
+* [not defined npm config node gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
 
 # Kubernetes
 ## Kubernetes TroubleShoot
@@ -101,7 +101,7 @@
 
 ## Python
 ### Python TroubleShoot
-* [Version_2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
+* [Version 2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
 
 # Security
 ## PKI
