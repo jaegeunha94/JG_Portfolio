@@ -110,10 +110,15 @@
 * [Digital Signature](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Security/PKI/Digital_Signature)
 
 # Server
+## KeepAlived
+* [KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived)
+
+### KeepAlived TroubleShoot
+* [ReceiveAdvertisementTimeout](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived/ReceiveAdvertisementTimeout.md)
+
 ## Nginx
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
-* [Nginx KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/KeepAlived)
 
 ### Nginx TroubleShoot
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
