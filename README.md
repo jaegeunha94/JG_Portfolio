@@ -114,7 +114,7 @@
 * [KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived)
 
 ### KeepAlived TroubleShoot
-* [ReceiveAdvertisementTimeout](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived/ReceiveAdvertisementTimeout.md)
+* [Receive Advertisement Timeout](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Server/KeepAlived/TroubleShoot/ReceiveAdvertisementTimeout.md)
 
 ## Nginx
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
