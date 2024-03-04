@@ -48,6 +48,10 @@
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
+# Git
+## Git TroubleShoot
+* [Tag Synchronization Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue)
+
 ## NodeJS
 * [Conda Environment](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/CondaEnvironment)
 
