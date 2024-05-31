@@ -5,13 +5,10 @@
 * [Commit 내역](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub#commit-%EB%82%B4%EC%97%AD)
 
 <br/>
-
-
 # Cloudhub 개발 환경
 ## 1. IDE
 ### Visual Studio Code
 * 1.74.2
-
 
 ## 2. 가상화
 ### Virtual Box
@@ -22,14 +19,12 @@
 * CentOS-7-x86_64-DVD-2009
   * CentOS Linux release 7.9.2009 (Core)
 
-
 ## 4. 프론트
 ### node
 * node-v12.22.1-x64
 
 ### React
 * ^16.12.0
-
 
 ## 5. 백엔드
 ### go 
@@ -38,16 +33,13 @@
 <br/>
 <br/>
 
-
 # 제품 설명
 운영하고 있는 대상 장비 혹은 Cloud 솔루션
 
 Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하고 시각화 하며,  
 수집된 데이터를 사용자 tenant 별로 제공하기 위한 API를 제공하는데 주 목적이 있습니다.
 
-
 ![cloudhub](./Cloudhub_Picture.PNG)
-
 
 ## 수집 범위
 * Bare metal 서버.
@@ -62,7 +54,6 @@ Bare metal 서버, IaaS, PaaS 솔루션 등의 가용성 데이터를 수집하�
 Collector 서버에서 수집 모듈이 Pull(Get) 방식으로 데이터를 수집하는 방식, 흔히 Agentless 방식으로고도 불림.
 주로, OpenStack, OpenShift, VMWare(vROps), Tanzu 혹은 IPMI, SNMP 등과 같이  
 Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 통하여 수집하는 경우에 사용됨.
-
 
 # Cloudhub 제품 구성
 ## 1. SaltStack
@@ -84,7 +75,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 따로 설치해야 하는 것은 아니며 Salt-master를 설치하면 zeroMQ도 함께 설치 된다. 
 * publish Port로 4505 / Return Port 로 4506 을 사용한다. (포트 수정 가능)
 
-
 ## 2. Telegraf
 * 데이터 수집 에이전트
 * 플러그인을 기반으로 데이터 수집 가능
@@ -96,26 +86,20 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 #### Processor Plugins 
 * transform, decorate, and/or filter metrics
 
-
 #### Aggregator Plugins 
 * create aggregate metrics (e.g. mean, min, max, quantiles, etc.)
 
-
 #### Output Plugins write metrics to various destinations
 * write metrics to various destinations
-
 
 ## 3. InfluxDB 
 * InfluxDB는 시계열 데이터베이스
 * Time Seriese Data(시계열 데이터)는 시간에 따라 저장된 데이터
 * 시계열 데이터베이스는 '하나 이상의 시간'과 '하나 이상의 값' 쌍을 통해 시계열을 저장하고 서비스하는데 최적화된 소프트웨어 시스템
 
-
 ## 4. Cloudhub
 클라우드 허브 제품은 서버, 어플리케이션, 가상 머신, 쿠버네티스 등을 모니터링해주는 제품,  
 또한 모니터링한 데이터를 시각화하여 보여주고 알람을 설정할 수 있음
-
-
 
 # 모니터링 해본 장비
 ## Baremetal
@@ -137,8 +121,7 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 
 ## Public Cloud
 * Azure HCI
-
-
+  
 # 서버 작업
 ## CentOS7
 * [Gluster 구성(Replica)을 통해 Collector Server간 Minion 상태 공유](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Linux/Gluster)
@@ -147,8 +130,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * [KeepAlived로 이중화](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/KeepAlived)
 * [HTTP 2.0 적용](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/HTTP/Upgrade.md)
 * [NGinx WebSocket Timeout로 인한 proxy_read_timeout 옵션 적용](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration#7-proxy_read_timeout)
-
-
 
 # Commit 내역
 ## 🔖1.4.0
@@ -190,14 +171,12 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 커밋
   * [Add InsecureSkipVerify Option in Salt Reverse Proxy](https://github.com/jaegeunha94/cloudhub/commit/f4790f0375428c9f9c4b03f2158e774b85e4b10e)
 
-
 ### Enhancement
 #### Add testing cloud input plugin before writing telegraf conf file in ServiceConfig
 * 변경 이유: Telegraf 설정 파일을 적용하기 전에 테스트 로직을 실행하지 않으면, 잘못된 설정 파일이 적용됐을 경우 Telegraf 서비스 파일이 죽을 수 있음
 * 변경 내용: Telegraf 설정 파일 적용 전, 테스트 성공시 Conf 파일 적용하는 로직 추가
 * 커밋
   * [Add testing cloud input plugin before writing telegraf conf file in ServiceConfig](https://github.com/jaegeunha94/cloudhub/commit/6488e96de9dc334e43fa7e3221b3751633134db3)
-
 
 #### Modify API Multi Request Logic not to transfer the token of salt to the client
 * 변경 이유: API 요청시 Frontend 코드에서 token을 넣어 보내기 때문에, 개발자도구 Network 탭에서 token이 노출됨
@@ -214,7 +193,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 커밋
   * [Prevent writing telegraf.conf file when conf file isn't changed in telegraf test. #348](https://github.com/jaegeunha94/cloudhub/commit/84baa90090b01306ba235de465362df956346c91)
 
-
 #### Move topology save button to the back of export button #351
 * 변경 내용: Topology 탭에 export 버튼 위치 변경
 * 커밋
@@ -227,7 +205,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
   * AgentConfiguration 화면에서 설정 파일을 적용할 경우 Telegraf 서비스를 restart 시키는 것에서 reload로 변경
 * 커밋
   * [Change logics of Test and Apply buttons in Agent Configuration](https://github.com/jaegeunha94/cloudhub/commit/38c15fb53cc15767ed792ed04a59ab897fb3f643)
-
 
 ### Bug Fixes
 #### Fix Telegraf test filename in AgentConfiguration
@@ -247,8 +224,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 커밋
   * [Fix Remove checking statusText when response status is 200 in ServiceConfig, AgentControl and GridLayoutRenderer](https://github.com/jaegeunha94/cloudhub/commit/46bf191c032f3f49b3920854e50f7083e2a5c823)
 
-
-
 ## 🔖1.4.2
 ### Enhancement
 #### Add Support OS ToolTip in Collector Control Tab
@@ -266,7 +241,6 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
   * Cancel를 누를 경우 변경 사항 저장하지 않고 페이지 이동
 * 커밋
   * [Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data](https://github.com/jaegeunha94/cloudhub/commit/886a13bfef96e9e16dde0291e4aff66de7acbdae)
-
 
 ## 🔖1.4.4
 ### New Features
@@ -303,3 +277,8 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
   * [#At #421 Modify preference popup's cancel button event in Topology](https://github.com/snetsystems/cloudhub/commit/a3d74d71b12a4c1b17df9ef759296f542d21bc18)
   * [At #421 Modify Temperature Preferences UI](https://github.com/snetsystems/cloudhub/commit/1d5df63ebabbc2d4d37999fce0a921cc5142c810])
   * [At #421 Modify the label name of the radio button from 'inside' to 'CPU'](https://github.com/snetsystems/cloudhub/commit/03b0d26b7a253e9d7d40b80c95519d9f8ae93245)
+
+## 🔖1.5.0
+### New Features
+* 수정 내용
+  * Visualization 통계 그래프 추가
