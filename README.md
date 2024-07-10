@@ -48,6 +48,7 @@
 
 # Git
 ## Git TroubleShoot
+* [CRLF, LF Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/CRLF_LF.md)
 * [Tag Synchronization Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue.md)
 
 ## NodeJS
