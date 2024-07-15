@@ -138,6 +138,7 @@
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
 
 ### Nginx TroubleShoot
+* [Client Max Body Size](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/ClientMaxBodySize.md)
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
 
 # Virtual
