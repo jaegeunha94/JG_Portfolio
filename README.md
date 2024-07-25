@@ -51,10 +51,9 @@
 * [Prettier](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Code_Formatter/Prettier)
 * [NPM Audit](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/PackageManager/NPM/Audit.md)
 
-# Git
-## Git TroubleShoot
-* [CRLF, LF Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/CRLF_LF.md)
-* [Tag Synchronization Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue.md)
+## CSS
+### CSS TroubleShoot
+* [Opacity Error In React](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/CSS/TroubleShoot/OpacityErrorInReact.md)
 
 ## NodeJS
 * [Conda Environment](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/CondaEnvironment)
@@ -62,6 +61,11 @@
 ### NodeJS TroubleShoot
 * [could not find a version of VisualStudio2017](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/couldnotfindaversionofVisualStudio2017.md)
 * [not defined npm config node gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
+
+# Git
+## Git TroubleShoot
+* [CRLF, LF Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/CRLF_LF.md)
+* [Tag Synchronization Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue.md)
 
 # Kubernetes
 ## Kubernetes TroubleShoot
