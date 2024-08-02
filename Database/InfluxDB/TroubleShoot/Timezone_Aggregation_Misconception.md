@@ -2,9 +2,9 @@
 InfluxDB에서 집계 함수를 사용할 때 시간대(TimeZone)를 제대로 설정하지 않으면 잘못된 기준으로 집계될 수 있다.  
 이는 Date Picker와는 별개로, 쿼리 내에서 직접 설정해야 한다.
 
-## 1. `now` 함수를 사용할 때
+## 1. `now`를 사용할 때
 
-### 잘못된 쿼리 (UTC 00시 기준으로 집계)
+### UTC 00시 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
 FROM "Default"."autogen"."cloudhub_alerts" 
@@ -13,7 +13,7 @@ GROUP BY time(1d)
 FILL(null)
 ```
 
-### 수정된 쿼리 (한국 시간 기준으로 집계)
+### 한국 시간 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
 FROM "Default"."autogen"."cloudhub_alerts" 
@@ -23,8 +23,8 @@ FILL(null)
 tz('Asia/Seoul')
 ```
 
-## 2. Date Picker를 사용할 때
-### 잘못된 쿼리 Case 1 (UTC 기준으로 집계)
+## 2. 특정 날짜 범위를 지정하여 사용할 때
+### UTC 기준으로 집계 (Where 절은 UTC Timezone)
 ```sql
 SELECT count("value") AS "count_value" 
 FROM "Default"."autogen"."cloudhub_alerts" 
@@ -33,7 +33,7 @@ GROUP BY time(1d)
 FILL(null)
 ```
 
-### 잘못된 쿼리 Case 2(시간대를 WHERE 절에 붙여도 집계는 TZ 기준으로 하지 않음)
+### UTC 기준으로 집계 (WHERE 절은 9시간 더한 시간 설정)
 ```sql
 SELECT count("value") AS "count_value" 
 FROM "Default"."autogen"."cloudhub_alerts" 
@@ -42,7 +42,7 @@ GROUP BY time(1d)
 FILL(null)
 ```
 
-### 수정된 쿼리 (한국 시간 기준으로 집계)
+### 한국 시간 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
 FROM "Default"."autogen"."cloudhub_alerts" 
