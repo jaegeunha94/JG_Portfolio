@@ -41,7 +41,8 @@
 * [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
 
 ## Docker-Compose
-* [Download](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download)
+* [Install](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download/README.md)
+    * [Ubuntu 22.04 Install](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/Download/Ubuntu_22_04.md)
 
 ### Docker-Compose TroubleShoot
 * [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
