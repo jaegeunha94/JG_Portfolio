@@ -1,8 +1,6 @@
 # 환경
 * 운영체제: Ubuntu 22.04.4
 * Online 환경
-* 특정 버전 설치
-    * Docker: 24.0.7
 
 # Docker 설치
 ## 1. 기존 Docker 제거 (필요한 경우):
