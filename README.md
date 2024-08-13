@@ -146,6 +146,7 @@
 
 ## Nginx
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
+* [site-available_site-enabled](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/site-available_site-enabled.md)
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
 
 ### Nginx TroubleShoot
