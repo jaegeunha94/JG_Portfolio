@@ -1,3 +1,23 @@
+# CRLF (\r\n)
+* Carriage Return(CR): '\r' (ASCII 13)
+* Line Feed(LF): '\n' (ASCII 10)이 두 개의 문자를 연속해서 사용하여 줄바꿈을 표현합니다.주로 Windows 운영체제에서 사용됩니다.
+
+# LF (\n)
+* Line Feed(LF): '\n' (ASCII 10)만 사용하여 줄바꿈을 표현합니다.
+* 주로 Unix 기반 운영체제, 즉 Linux나 macOS에서 사용됩니다.
+
+## 차이점
+* Windows: CRLF (\r\n)을 사용하여 줄바꿈을 처리합니다.
+* 이는 과거 타자기 시절, 커서를 맨 앞으로 이동시키고(CR), 다음 줄로 이동(LF)하는 동작에서 유래되었습니다.
+* Unix/Linux 및 최신 macOS: LF (\n)만을 사용하여 줄바꿈을 처리합니다.
+
+## 예시
+### Windows에서의 줄바꿈
+`Hello\r\nWorld`
+
+### Unix/Linux에서의 줄바꿈
+`Hello\nWorld`
+
 # 줄바꿈 (윈도우에서는 아래와 같은 git 설정을 해야함)
 ```bash
 git config --global core.autocrlf input
