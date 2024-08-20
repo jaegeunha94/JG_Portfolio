@@ -86,7 +86,7 @@
 
 ### mxgraph
 #### mxgraph TroubleShoot
-* [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/mxgraph/Outline_LabelsVisible.md)
+* [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxgraph/TroubleShoot/Outline_LabelsVisible.md)
 
 ## React
 * [Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/Chart)
