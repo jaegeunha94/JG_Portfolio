@@ -13,13 +13,11 @@
 * chart.js ^4.0.0 권장
 * react-chartjs 최신 버전: 5.2.0 (2023.1.10)
 
-
 # 기타 차트 관련 내용 정리
 ## Bubble Chart
 * Bubble Chart는 세 가지 차원의 데이터를 동시에 표시하는 데 사용된다.
 * 버블의 위치는 처음 두 차원과 해당 가로축 및 세로축에 의해 결정된다.
 * 세 번째 차원은 개별 거품의 크기로 표시된다.
-
 
 ## Doughnut and Pie Charts
 * Pie/Doughnut Chart는 세그먼트로 나뉘며, 각 세그먼트의 호는 각 데이터의 비례 값을 나타낸다.
