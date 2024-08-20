@@ -82,6 +82,9 @@
 #### ChartJS TroubleShoot
 * [Show Zero Value In Bar Graph](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
 
+### d3
+* [scaleSequential 함수](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/d3/scaleSequential)
+
 ### [day.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/day.js)
 
 ### [papaparse](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/papaparse)
