@@ -13,8 +13,6 @@
 ## [InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB)
 * [Curl](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/Curl)
 * [Query](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/Query)
-* Subscription
-    * [Manage subscriptions in InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/Subscription/ManagesubscriptionsinInfluxDB.md)
 * User
     * [Managing User](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
