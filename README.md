@@ -80,7 +80,7 @@
 ## Javascript
 ### [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
 #### ChartJS TroubleShoot
-* [ShowZeroValueInBarGraph](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
+* [Show Zero Value In Bar Graph](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
 
 ### [day.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/day.js)
 

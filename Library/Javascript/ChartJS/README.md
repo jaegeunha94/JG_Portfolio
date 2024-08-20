@@ -37,13 +37,3 @@
 * 기본 꺾은선형 차트를 기반으로 하며, X축이 선형 축으로 변경된다.
 * Scatter Chart를 사용하려면 데이터를 X 및 Y 속성을 포함하는 개체로 전달해야 한다. 
 
-# TroubleShoot
-## Chart.js 4.0.0 이상 버전 문제점
-* Chart.js는 Rollup이라는 Bundler를 사용
-* Chart.js 4 버전에서 변경된 rollup.config.js 설정으로 인해, Chart.js 4 버전 이상의 라이브러리를 CloudHub에서 빌드 할 때 다음과 같은 오류가 발생
-* 변경된 설정 파일로 인해 class 문법이 제대로 transpile 되지 않는 것으로 보임
-
-### 결론
-* Chart.js는 3.9.1, react-chartjs-2는 4.3.1 버전 사용
-* react-chartjs-2 홈페이지에서 Chart.js v3에 대한 호환성을 제공하는 버전
-* `yarn add chart.js@^3.9.1 react-chartjs-2@^4.3.1``
