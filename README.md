@@ -96,7 +96,7 @@
 * [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxgraph/TroubleShoot/Outline_LabelsVisible.md)
 
 ## React
-* [React Chart Library](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/Chart)
+* [React Chart Library](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/React_Chart)
 
 # Network
 ## RFC
