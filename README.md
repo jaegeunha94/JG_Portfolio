@@ -17,6 +17,7 @@
 
 ### InfluxDB TroubleShoot
 * [Retention Policy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
+* [Regex Query Fix](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Regex_query_fix.md)
 * [Tag Values Not Expiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
 * [Timezone Aggregation Misconception](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/TroubleShoot/Timezone_Aggregation_Misconception.md)
 
