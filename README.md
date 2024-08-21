@@ -108,6 +108,9 @@
 * [Auto Compaction Retention](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/Auto_Compaction_Retention.md)
 * [ClusterID Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
+## Kapacitor 
+* [Tickscript Syntax](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Syntax)
+
 ## Kibana
 * VisualizationType
     * [Bar Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kibana/VisualizationType/BarChart.md)
