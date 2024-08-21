@@ -1,3 +1,6 @@
+# OS 환경
+* CentOS 7.9
+
 # Nginx: 포트 바인딩 오류 해결
 * Nginx를 실행할 때 "bind() to 0.0.0.0:8000 failed (13: Permission denied)"라는 오류가 발생할 수 있다. 
 * 이는 특정 포트(여기서는 8000)에 바인딩하기 위한 권한이 없을 때 발생한다. SELinux 환경에서는 semanage 명령어를 사용하여 필요한 HTTP 포트를 추가하거나 관리하여 이 문제를 해결할 수 있다.
