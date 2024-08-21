@@ -92,6 +92,6 @@ Telegraf Git Repository를 원하는 폴더에 Clone
 ```
 
 ## 6. Run make from the source directory
-Telegraf를 빌드하는 명령어는 아래와 같습니다.
+Telegraf를 빌드하는 명령어는 아래와 같다.
 
 `make telegraf`
