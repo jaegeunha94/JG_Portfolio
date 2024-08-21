@@ -75,18 +75,18 @@ kube-system    kube-proxy        1         1         1       1            1     
 # coredns pods가 READY에 정상 count로 바뀐다.
 $ kubectl get po -A -o wide
 NAMESPACE      NAME                                                         READY   STATUS    RESTARTS   AGE    IP            NODE                                   NOMINATED NODE   READINESS GATES
-kube-flannel   kube-flannel-ds-9xn4n                                        1/1     Running   0          34m    10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-flannel   kube-flannel-ds-l5jn2                                        1/1     Running   0          34m    10.20.2.232   k8s-worker01-centos8.snetsystems.com   <none>           <none>
-kube-flannel   kube-flannel-ds-wk2kw                                        1/1     Running   0          34m    10.20.2.233   k8s-worker02-centos8.snetsystems.com   <none>           <none>
-kube-system    coredns-565d847f94-f8bcw                                     1/1     Running   2          5d5h   10.244.0.5    k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    coredns-565d847f94-x42xq                                     1/1     Running   2          5d5h   10.244.0.4    k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    etcd-k8s-master-centos8.snetsystems.com                      1/1     Running   2          5d5h   10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    kube-apiserver-k8s-master-centos8.snetsystems.com            1/1     Running   2          5d5h   10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    kube-controller-manager-k8s-master-centos8.snetsystems.com   1/1     Running   2          5d5h   10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    kube-proxy-hjs56                                             1/1     Running   2          5d4h   10.20.2.233   k8s-worker02-centos8.snetsystems.com   <none>           <none>
-kube-system    kube-proxy-rmz2d                                             1/1     Running   2          5d4h   10.20.2.232   k8s-worker01-centos8.snetsystems.com   <none>           <none>
-kube-system    kube-proxy-xszfg                                             1/1     Running   2          5d5h   10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
-kube-system    kube-scheduler-k8s-master-centos8.snetsystems.com            1/1     Running   2          5d5h   10.20.2.231   k8s-master-centos8.snetsystems.com     <none>           <none>
+kube-flannel   kube-flannel-ds-9xn4n                                        1/1     Running   0          34m    10.20.2.231   k8s-master     <none>           <none>
+kube-flannel   kube-flannel-ds-l5jn2                                        1/1     Running   0          34m    10.20.2.232   k8s-worker01   <none>           <none>
+kube-flannel   kube-flannel-ds-wk2kw                                        1/1     Running   0          34m    10.20.2.233   k8s-worker02   <none>           <none>
+kube-system    coredns-565d847f94-f8bcw                                     1/1     Running   2          5d5h   10.244.0.5    k8s-master     <none>           <none>
+kube-system    coredns-565d847f94-x42xq                                     1/1     Running   2          5d5h   10.244.0.4    k8s-master     <none>           <none>
+kube-system    etcd-k8s-master                      1/1     Running   2          5d5h   10.20.2.231   k8s-master     <none>           <none>
+kube-system    kube-apiserver-k8s-master            1/1     Running   2          5d5h   10.20.2.231   k8s-master     <none>           <none>
+kube-system    kube-controller-manager-k8s-master   1/1     Running   2          5d5h   10.20.2.231   k8s-master     <none>           <none>
+kube-system    kube-proxy-hjs56                                             1/1     Running   2          5d4h   10.20.2.233   k8s-worker02   <none>           <none>
+kube-system    kube-proxy-rmz2d                                             1/1     Running   2          5d4h   10.20.2.232   k8s-worker01   <none>           <none>
+kube-system    kube-proxy-xszfg                                             1/1     Running   2          5d5h   10.20.2.231   k8s-master     <none>           <none>
+kube-system    kube-scheduler-k8s-master            1/1     Running   2          5d5h   10.20.2.231   k8s-master     <none>           <none>
 ```
 
 ## worker node join
