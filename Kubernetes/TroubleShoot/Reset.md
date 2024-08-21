@@ -1,3 +1,6 @@
+# OS 환경
+* CentOS 8
+
 # reset 하는 법
 ## worker node reset
 ```
@@ -15,16 +18,15 @@ sudo ip link delete flannel.1
 sudo iptables -F && sudo iptables -t nat -F && sudo iptables -t mangle -F && sudo iptables -X
 ```
 
-* sudo kubeadm reset: 이 명령어는 현재 호스트에서 실행 중인 Kubernetes 클러스터를 초기화합니다. 클러스터 구성, 상태 및 설치된 컴포넌트를 제거하고 기본 상태로 되돌립니다.
-* sudo rm -rf /etc/kubernetes/: 이 명령어는 /etc/kubernetes/ 디렉토리를 재귀적으로 삭제합니다. 이 디렉토리는 Kubernetes 관련 구성 파일이 포함되어 있으므로 클러스터를 완전히 제거하고자 할 때 사용될 수 있습니다.
-* sudo ifconfig cni0 down: 이 명령어는 "cni0"라는 네트워크 인터페이스를 비활성화합니다. 이 인터페이스는 일반적으로 Kubernetes CNI(Container Networking Interface) 플러그인에서 사용되는 가상 인터페이스입니다.
-* sudo ifconfig flannel.1 down: 이 명령어는 "flannel.1"이라는 네트워크 인터페이스를 비활성화합니다. 이 인터페이스는 Flannel 네트워크 플러그인에서 사용되는 가상 인터페이스입니다.
-* sudo ip link delete cni0: 이 명령어는 "cni0"라는 네트워크 인터페이스를 삭제합니다. 이 명령어는 인터페이스를 완전히 제거하고자 할 때 사용될 수 있습니다.
-* sudo ip link delete flannel.1: 이 명령어는 "flannel.1"이라는 네트워크 인터페이스를 삭제합니다. 마찬가지로, 인터페이스를 완전히 제거하고자 할 때 사용될 수 있습니다.
-* sudo iptables -F && sudo iptables -t nat -F && sudo iptables -t mangle -F && sudo iptables -X: 이 명령어는 현재 시스템의 iptables 규칙을 초기화합니다. -F 옵션은 모든 규칙을 제거하고 -t 옵션은 특정 테이블을 지정합니다. -X 옵션은 사용자 정의 체인을 제거합니다. 이 명령어는 클러스터에서 사용되던 iptables 규칙을 제거하고 새로운 클러스터를 배포하기 전에 초기 상태로 되돌리는 데 사용됩니다.
-  * sudo iptables -t nat -F: NAT(Network Address Translation) 테이블의 모든 규칙을 삭제합니다. NAT는 네트워크 패킷의 소스 IP 주소와 포트 번호, 혹은 대상 IP 주소와 포트 번호를 변환하는 데 사용됩니다.
-  * sudo iptables -t mangle -F: Mangle 테이블의 모든 규칙을 삭제합니다. Mangle 테이블은 패킷의 특정 필드를 수정하거나 표시하기 위해 사용됩니다.
-
+* sudo kubeadm reset: 이 명령어는 현재 호스트에서 실행 중인 Kubernetes 클러스터를 초기화한다. 클러스터 구성, 상태 및 설치된 컴포넌트를 제거하고 기본 상태로 되돌린다.
+* sudo rm -rf /etc/kubernetes/: 이 명령어는 /etc/kubernetes/ 디렉토리를 재귀적으로 삭제한다. 이 디렉토리는 Kubernetes 관련 구성 파일이 포함되어 있으므로 클러스터를 완전히 제거하고자 할 때 사용될 수 있다.
+* sudo ifconfig cni0 down: 이 명령어는 "cni0"라는 네트워크 인터페이스를 비활성화한다. 이 인터페이스는 일반적으로 Kubernetes CNI(Container Networking Interface) 플러그인에서 사용되는 가상 인터페이스다.
+* sudo ifconfig flannel.1 down: 이 명령어는 "flannel.1"이라는 네트워크 인터페이스를 비활성화한다. 이 인터페이스는 Flannel 네트워크 플러그인에서 사용되는 가상 인터페이스다.
+* sudo ip link delete cni0: 이 명령어는 "cni0"라는 네트워크 인터페이스를 삭제한다. 이 명령어는 인터페이스를 완전히 제거하고자 할 때 사용될 수 있다.
+* sudo ip link delete flannel.1: 이 명령어는 "flannel.1"이라는 네트워크 인터페이스를 삭제한다. 마찬가지로, 인터페이스를 완전히 제거하고자 할 때 사용될 수 있다.
+* sudo iptables -F && sudo iptables -t nat -F && sudo iptables -t mangle -F && sudo iptables -X: 이 명령어는 현재 시스템의 iptables 규칙을 초기화한다. -F 옵션은 모든 규칙을 제거하고 -t 옵션은 특정 테이블을 지정한다. -X 옵션은 사용자 정의 체인을 제거한다. 이 명령어는 클러스터에서 사용되던 iptables 규칙을 제거하고 새로운 클러스터를 배포하기 전에 초기 상태로 되돌리는 데 사용된다.
+  * sudo iptables -t nat -F: NAT(Network Address Translation) 테이블의 모든 규칙을 삭제한다. NAT는 네트워크 패킷의 소스 IP 주소와 포트 번호, 혹은 대상 IP 주소와 포트 번호를 변환하는 데 사용된다.
+  * sudo iptables -t mangle -F: Mangle 테이블의 모든 규칙을 삭제한다. Mangle 테이블은 패킷의 특정 필드를 수정하거나 표시하기 위해 사용된다.
 
 ## master node reset
 ```
@@ -35,7 +37,6 @@ sudo kubeadm reset
 # 관련 파일 삭제
 sudo rm -rf /etc/kubernetes/
 
-
 # 쿠버네티스 관련 파일 전체 삭제
 sudo rm -rf /var/lib/cni
 sudo rm -rf /var/lib/kubelet/*
@@ -44,7 +45,6 @@ sudo rm -rf /run/flannel
 sudo rm -rf /etc/cni/
 sudo rm -rf /etc/kubernetes
 sudo rm -rf ~/.kube
-
 
 # 네트워크 초기화
 sudo ifconfig cni0 down
