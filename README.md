@@ -76,16 +76,20 @@
 
 # Library
 ## Javascript
-### [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
+### Chart JS
+* [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
+
 #### ChartJS TroubleShoot
 * [Show Zero Value In Bar Graph](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
 
 ### d3
 * [scaleSequential 함수](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/d3/scaleSequential)
 
-### [day.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/day.js)
+### day.js
+* [day.js](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/day.js)
 
-### [papaparse](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/papaparse)
+### papaparse
+* [papaparse](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/papaparse)
 
 ### mxgraph
 #### mxgraph TroubleShoot
@@ -95,7 +99,8 @@
 * [React Chart Library](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/Chart)
 
 # Network
-## [RFC](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Network/RFC/README.md)
+## RFC
+* [RFC](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Network/RFC/README.md)
 * [RFC 3339](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Network/RFC/RFC3339.md)
 
 ## SNMP
@@ -113,8 +118,7 @@
 * [Tickscript Syntax](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Syntax)
 
 ## Kibana
-* VisualizationType
-    * [Bar Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kibana/VisualizationType/BarChart.md)
+* [Bar Chart](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kibana/VisualizationType/BarChart.md)
 
 ## [SaltStack](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/SaltStack)
 * Cloud
