@@ -4,10 +4,10 @@
 #### Functions
 | Function       | Description                                    |
 |----------------|------------------------------------------------|
-| Date histogram | 날짜 혹은 날짜 범위 값을 간격에 따라 분포시킵니다.    |
-| Filters        | 값들을 사전에 정의된 부분 집합으로 나눕니다.         |
-| Intervals      | 정의된 숫자 범위에 따라 값들을 버킷에 할당합니다.    |
-| Top values     | 선택된 메트릭에 의해 순위가 매겨진 특정 필드의 상위 값들입니다. |
+| Date histogram | 날짜 혹은 날짜 범위 값을 간격에 따라 분포시킨다.    |
+| Filters        | 값들을 사전에 정의된 부분 집합으로 나눈다.         |
+| Intervals      | 정의된 숫자 범위에 따라 값들을 버킷에 할당한다.    |
+| Top values     | 선택된 메트릭에 의해 순위가 매겨진 특정 필드의 상위 값들이다. |
 
 
 ### Vertical Axis
@@ -65,7 +65,7 @@
 | Tick labels       | 축에 눈금 라벨을 표시할지 여부를 결정하는 옵션                           |
 | Orientation       | 축의 방향을 설정                                                 |
 |                   | Label 방향이 돌아감: Hotizontal / Vertical / Angled             |
-| Axis scale        | 이것은 축의 스케일을 결정합니다.                                     |
+| Axis scale        | 이것은 축의 스케일을 결정                                     |
 |                   | Linear / Logarithmic / Square root                              |
 | Bounds            | 축의 범위를 결정                                                 |
 |                   | Min/Max 개념                                                    |
