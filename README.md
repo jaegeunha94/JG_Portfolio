@@ -76,6 +76,9 @@
 
 # Library
 ## Javascript
+### axios
+* [Interceptor](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/axios/interceptor.md)
+
 ### Chart JS
 * [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
 
