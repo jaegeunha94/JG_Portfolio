@@ -118,6 +118,7 @@
 * [ClusterID Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## [Kapacitor](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor) 
+* [Tickscript Stream/Batch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Stream_Batch)
 * [Tickscript Syntax](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Syntax)
 
 ## Kibana
