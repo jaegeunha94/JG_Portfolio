@@ -119,6 +119,7 @@
 
 ## [Kapacitor](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor) 
 * [Tickscript Stream/Batch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Stream_Batch)
+* [Tickscript Stream Subquery](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Stream_Batch/StreamSubquery.md)
 * [Tickscript Syntax](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Syntax)
 
 ## Kibana
