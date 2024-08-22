@@ -172,6 +172,7 @@
 ### Nginx TroubleShoot
 * [Client Max Body Size](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/ClientMaxBodySize.md)
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
+* [Proxy Buffering Off](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/proxy_buffering_off.md)
 
 # Virtual
 ## Oracle VM VirtualBox
