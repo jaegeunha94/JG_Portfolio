@@ -94,9 +94,9 @@
 ### papaparse
 * [papaparse](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/papaparse)
 
-### mxgraph
-#### mxgraph TroubleShoot
-* [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxgraph/TroubleShoot/Outline_LabelsVisible.md)
+### mxGraph
+#### mxGraph TroubleShoot
+* [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxGraph/TroubleShoot/Outline_LabelsVisible.md)
 
 ## React
 * [React Chart Library](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/React_Chart)
