@@ -108,9 +108,6 @@ var trigger = data
 ### message, id, idTag, levelTag, messageField, durationField 등의 메서드
 * 경고 메시지의 형식과 내용을 정의한다.
 
-### slack()와 email()
-* 경고를 전달할 통신 채널을 설정한다. 여기서는 Slack 채널과 이메일 주소가 지정되어 있다.
-
 ## eval 함수
 ```
 trigger
