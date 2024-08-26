@@ -15,7 +15,7 @@ Retention Policy 확인 및 변경
 
 `ALTER RETENTION POLICY "rp_name" ON "db_name" DURATION INF REPLICATION 1 DEFAULT``
 
-4. Cloudhub DB Connection & telegraf Agent Config 변경 
+4. DB Connection & telegraf Agent Config 변경 
 
 Default Retention Policy의 Retention Policy 이름을 입력
 

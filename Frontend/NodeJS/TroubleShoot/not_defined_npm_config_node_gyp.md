@@ -4,13 +4,13 @@ gyp info using node-gyp@5.1.1
 
 gyp info using node@14.21.3 | win32 | x64
 
-+// error C:\ROOT\Cloudhub_goinstall_test\cloudhub\frontend\node_modules\deasync: Command failed.
++// error C:\ROOT\_goinstall_test\\frontend\node_modules\deasync: Command failed.
 Exit code: 1
 Command: node ./build.js
 Arguments:
-+//Directory: C:\ROOT\Cloudhub_goinstall_test\cloudhub\frontend\node_modules\deasync
++//Directory: C:\ROOT\_goinstall_test\\frontend\node_modules\deasync
 Output:
-+// C:\ROOT\Cloudhub_goinstall_test\cloudhub\frontend\node_modules\deasync>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild )
++// C:\ROOT\_goinstall_test\\frontend\node_modules\deasync>if not defined npm_config_node_gyp (node "C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "" rebuild )
 gyp info it worked if it ends with ok
 gyp info using node-gyp@5.1.1
 gyp info using node@14.21.3 | win32 | x64
@@ -57,7 +57,7 @@ gyp ERR! stack     at onErrorNT (internal/child_process.js:472:16)
 gyp ERR! stack     at processTicksAndRejections (internal/process/task_queues.js:82:21)
 gyp ERR! System Windows_NT 10.0.19045
 gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
-gyp ERR! cwd C:\ROOT\Cloudhub_goinstall_test\cloudhub\frontend\node_modules\deasync
+gyp ERR! cwd C:\ROOT\_goinstall_test\\frontend\node_modules\deasync
 gyp ERR! node -v v14.21.3
 gyp ERR! node-gyp -v v5.1.1
 gyp ERR! not ok

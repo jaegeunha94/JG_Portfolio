@@ -2,7 +2,7 @@
 * nginx -t
 
 
-# Cloudhub NGINX 설정
+# NGINX 설정 예시
 ```
 upstream apps {
     server 127.0.0.1:8888;

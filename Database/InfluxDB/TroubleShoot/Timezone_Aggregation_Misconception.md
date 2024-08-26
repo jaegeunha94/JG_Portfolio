@@ -7,7 +7,7 @@ InfluxDB에서 집계 함수를 사용할 때 시간대(TimeZone)를 제대로 �
 ### UTC 00시 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
-FROM "Default"."autogen"."cloudhub_alerts" 
+FROM "Default"."autogen"."alerts" 
 WHERE time > now() - 30d AND time < now()  
 GROUP BY time(1d) 
 FILL(null)
@@ -16,7 +16,7 @@ FILL(null)
 ### 한국 시간 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
-FROM "Default"."autogen"."cloudhub_alerts" 
+FROM "Default"."autogen"."alerts" 
 WHERE time > now() - 30d AND time < now()  
 GROUP BY time(1d) 
 FILL(null) 
@@ -27,7 +27,7 @@ tz('Asia/Seoul')
 ### UTC 기준으로 집계 (Where 절은 UTC Timezone)
 ```sql
 SELECT count("value") AS "count_value" 
-FROM "Default"."autogen"."cloudhub_alerts" 
+FROM "Default"."autogen"."alerts" 
 WHERE time >= '2024-07-02T15:00:00.000Z' AND time <= '2024-08-02T15:00:00.000Z' 
 GROUP BY time(1d) 
 FILL(null)
@@ -36,7 +36,7 @@ FILL(null)
 ### UTC 기준으로 집계 (WHERE 절은 9시간 더한 시간 설정)
 ```sql
 SELECT count("value") AS "count_value" 
-FROM "Default"."autogen"."cloudhub_alerts" 
+FROM "Default"."autogen"."alerts" 
 WHERE time >= '2024-07-03T00:00:00+09:00' AND time <= '2024-08-03T00:00:00+09:00' 
 GROUP BY time(1d) 
 FILL(null)
@@ -45,7 +45,7 @@ FILL(null)
 ### 한국 시간 기준으로 집계
 ```sql
 SELECT count("value") AS "count_value" 
-FROM "Default"."autogen"."cloudhub_alerts" 
+FROM "Default"."autogen"."alerts" 
 WHERE time >= '2024-07-03T00:00:00+09:00' AND time <= '2024-08-03T00:00:00+09:00' 
 GROUP BY time(1d) 
 FILL(null) 

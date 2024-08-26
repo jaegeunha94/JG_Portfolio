@@ -1,7 +1,7 @@
 # JEST 설정 파일
 
 ```
-//❗cloudHub jest.config.js 파일 설정
+// jest.config.js 파일 설정 예시
 module.exports = {
   projects: [
     {

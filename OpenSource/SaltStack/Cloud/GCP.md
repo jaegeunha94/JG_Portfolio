@@ -21,7 +21,7 @@ ec2-ncu:
   location: <location>
 
   driver: <driver>
-gce-cloudhub:
+gce:
   project: "<project>"
   service_account_email_address: "<email>"
   service_account_private_key: "<private key path>"
