@@ -72,11 +72,6 @@ var trigger = data
         .durationField(durationField)
         .details(details)
         .stateChangesOnly()
-        .slack()
-        .channel('#smrc-monitoring')
-        .email()
-        .to('jungseop.shin@snetsystems.co.kr')
-        .to('suhan.kwon@snetsystems.co.kr')
 ```
 
 * alert()는 경고 조건을 정의하고, 조건이 충족될 때 알림을 보내도록 설정한다.
@@ -102,11 +97,6 @@ var trigger = data
         .levelTag(levelTag)
         .messageField(messageField)
         .durationField(durationField)
-        .slack()
-        .channel('#smrc-monitoring')
-        .email()
-        .to('jungseop.shin@snetsystems.co.kr')
-        .to('suhan.kwon@snetsystems.co.kr')
 ```
 
 * "Dead Man's Switch"로, 특정 기간 동안 데이터 포인트가 임계값(threshold) 이하로 떨어지면 경고를 발생시킨다. 

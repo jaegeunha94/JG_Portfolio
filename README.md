@@ -118,6 +118,7 @@
 * [ClusterID Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## [Kapacitor](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor) 
+* [Tickscript_Batch_Sum](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Batch_Sum)
 * [Tickscript Stream/Batch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Stream_Batch)
 * [Tickscript Stream Subquery](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Stream_Batch/StreamSubquery.md)
 * [Tickscript Syntax](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Syntax)
