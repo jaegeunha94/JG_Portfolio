@@ -6,7 +6,7 @@
 또한, 향후 비슷한 상황이 발생했을 때 신속하고 효율적으로 대처할 수 있도록 하는 것을 목표로 하고 있습니다.
 
 # Project
-## [1. CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
+## [CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
 ![cloudhub](./Project/CloudHub/cloudhub.PNG)
 
 # Database
