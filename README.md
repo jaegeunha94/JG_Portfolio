@@ -174,6 +174,7 @@
 
 ### Nginx TroubleShoot
 * [Client Max Body Size](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/ClientMaxBodySize.md)
+* [Location Querystring Redirection](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/Location_Querystring_Redirection.md)
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
 * [Proxy Buffering Off](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/proxy_buffering_off.md)
 
