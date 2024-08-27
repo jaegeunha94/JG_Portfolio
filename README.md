@@ -170,6 +170,7 @@
 ## Nginx
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
 * [site-available_site-enabled](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Server/Nginx/site-available_site-enabled.md)
+* [Rewrite Log](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Server/Nginx/Log/Rewrite_Log.md)
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
 
 ### Nginx TroubleShoot
