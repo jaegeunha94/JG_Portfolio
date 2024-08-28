@@ -16,20 +16,19 @@
 * VirtualBox-6.1.32-149290-Win
 
 ## 3. 운영체제
-### CentOS
-* CentOS-7-x86_64-DVD-2009
-  * CentOS Linux release 7.9.2009 (Core)
+* CentOS 7.9
+* Ubuntu 22.04
 
 ## 4. 프론트
 ### node
-* node-v12.22.1-x64
+* node 12.x ~ node 14.x
 
 ### React
 * ^16.12.0
 
 ## 5. 백엔드
 ### go 
-* 1.16.x
+* go 1.21.x
 
 <br/>
 <br/>
