@@ -132,16 +132,83 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * [NGinx WebSocket Timeout로 인한 proxy_read_timeout 옵션 적용](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration#7-proxy_read_timeout)
 
 # Commit 내역
+## 🔖2.0.0 (2024.3.1 - 2024.7.1)
+* 수정 내용
+  * 네트워크 장비 등록 기능 추가 및 화면 구현 (2024.3.1 - 2024.4.1)
+  * AI 이상 징후 예측 관련 모니터링 대시보드 UI 구현 (2024.5.1 - 2024.7.1)
+* 커밋 내용
+  * [2.0.0 버전 관련 커밋 보기](https://github.com/jaegeunha94/cloudhub/commits/master/?since=2024-05-31&until=2024-08-23)
+
+## 🔖1.5.0 (2023.11.27 - 2024.03.11)
+* 수정 내용
+  * 통계 차트 기능 추가 (2023.11.27 - 2024.03.11)
+* 커밋 내용
+  * [1.5.0 버전 관련 커밋 보기](https://github.com/jaegeunha94/cloudhub/commits/master/?since=2023-11-27&until=2024-05-31)
+
+## 🔖1.4.5
+### New Features
+#### Topology 화면에서 IPMI를 통한 서버 별 온도 확인 위한 기능 추가
+* 수정 내용
+  * Collector Server에서 수집한 IPMI 데이터로 서버별 온도(IPMI) 표시 기능 추가
+  * 기존 CPU, Memory, Disk를 보여주는 UI 앞에 추가
+  * 보여줄 온도(Inlet/Insde/Outlet )를 설정할 수 있는 레이어 팝업 UI 추가
+* 커밋
+  * [At #421 Add Temperature monitoring feature in Topology](https://github.com/jaegeunha94/cloudhub/commit/e675461c431e55f9b0d67820ade67e55ca51f083)
+  * [At #421 Add temperature status in topology](https://github.com/jaegeunha94/cloudhub/commit/29b855b318e65de5d7eb6e4262b512eca258c0e7)
+  * [At #421 Modify max/min value from parseInt to parseFloat](https://github.com/snetsystems/cloudhub/commit/c79fe31cb5981d38b68f1735a54afb36a85a726d)
+  * [#421 Fix conditional statement when getting temperature indicator in topology preferences](https://github.com/jaegeunha94/cloudhub/commit/f5c409ccc387b939378fcf673072d34a3196f257)
+  * [#At #421 Modify preference popup's cancel button event in Topology](https://github.com/jaegeunha94/cloudhub/commit/a3d74d71b12a4c1b17df9ef759296f542d21bc18)
+  * [At #421 Modify Temperature Preferences UI](https://github.com/jaegeunha94/cloudhub/commit/1d5df63ebabbc2d4d37999fce0a921cc5142c810])
+  * [At #421 Modify the label name of the radio button from 'inside' to 'CPU'](https://github.com/jaegeunha94/cloudhub/commit/03b0d26b7a253e9d7d40b80c95519d9f8ae93245)
+
+## 🔖1.4.4
+### New Features
+#### Telegraf 분산 처리를 위한 Salt Target Minion 지정 기능 추가
+* 변경 이유
+  * Nginx를 이용하여 Salt 분산을 할 경우, telegraf configuration 파일이 어디에 생성되었는지 알 수 없음
+* 변경 내용
+  * 특정 Collector server에 telegraf conf 파일을 추가/삭제 필요
+  * 변경 내용: Cloudhub 서버 옵션에 target minion을 추가하여 해당 Minion에 파일 생성
+* 커밋
+  * [Telegraf 분산 처리를 위한 Salt Target Minion 지정 기능 추가](https://github.com/jaegeunha94/cloudhub/commit/9bb3c083adcfad3982432ff0950f55597a529fd8)
+
+ #### Dashboard 생성 시 정렬 기준(오름차순/내림차순) 추가
+ * 변경 이유
+   * 대시보드를 생성할 때 정렬 기준을 선택할 수 없음
+ * 변경 내용
+   * Dashboard 정렬 기준 설정하는 UI 추가
+   * Dashboard 정렬 기준 정하는 기능 추가
+* 커밋
+  * [Dashboard 생성 시 정렬 기준(오름차순/내림차순) 추가](https://github.com/jaegeunha94/cloudhub/commit/96104820e92f495c82a0701cb1e22b45035e9c94)
+
+## 🔖1.4.3
+### New Features
+#### Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data
+* 변경 이유: Infrastructure topology 수정 후 저장 버튼을 클릭하지 않고 페이지 이동 시 저장이 불가하므로, 사용자 UX개선을 위해 변경 필요
+* 변경 내용: 브라우저에서 제공하는 window.confirm을 사용하여 페이지 전환 시, 변경 사항을 저장할 지 물어보는 것으로 수정
+  * OK를 누를 경우 변경 사항 저장하고 페이지 이동
+  * Cancel를 누를 경우 변경 사항 저장하지 않고 페이지 이동
+* 커밋
+  * [Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data](https://github.com/jaegeunha94/cloudhub/commit/886a13bfef96e9e16dde0291e4aff66de7acbdae)
+
+## 🔖1.4.2
+### Enhancement
+#### Add Support OS ToolTip in Collector Control Tab
+* 변경 이유: Collector Control Tab 화면에서 지원하지 않는 운영체제가 있음
+* 변경 내용: Collector Control Tab에서 OS 운영체제 지원 범위 알려주는 ToolTip UI 추가
+* 커밋
+  * [Add Support OS ToolTip in Collector Control Tab](https://github.com/jaegeunha94/cloudhub/commit/6478ca453aaf0f29c731484ada33c3efcafac75b)
+
 ## 🔖1.4.0
 ### New Features
-#### Add an input filter to telegraf test function on UI. #348
+#### Add an input filter to telegraf test function on UI.
 * 변경 이유: Telegraf의 Input Plugin을 테스트 하고 싶은 경우, 전체 Input Plugin을 Test 하여 많은 시간이 소요됨 
 * 변경 내용
   * 개별 Input Plugin을 테스트 할 수 있는 UI 추가
 * 커밋
   * [Add an input filter to telegraf test function on UI. #348](https://github.com/jaegeunha94/cloudhub/commit/d08b08427a597106c55971a5c2f2f07c8eeaac48)
 
-#### Add the export/import function of topology map. #351
+#### Add the export/import function of topology map.
 * 변경 이유: Topology 내용을 다른 서버 혹은 Source에 옮기고 싶을 때, 많은 시간이 소요됨
 * 변경 내용: Topology 내용을 파일로 export/import할 수 있는 UI 및 기능 추가
 * 커밋
@@ -187,7 +254,7 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 커밋
   * [Modify API Multi Request Logic not to transfer the token of salt to the client](https://github.com/jaegeunha94/cloudhub/commit/702dfccde62bb4be69d296ee9cd67c11c4bc75e0)
 
-#### Prevent writing telegraf.conf file when conf file isn't changed in telegraf test. #348
+#### Prevent writing telegraf.conf file when conf file isn't changed in telegraf test.
 * 변경 이유: Telegraf conf 파일이 변경되지 않았음에도, 파일을 덮어쓰는 API 요청이 들어가 시간이 지연됨
 * 변경 내용: telegraf conf 파일 변경되지 않았을 때는 telegraf conf 파일 덮어쓰는 로직 삭제
 * 커밋
@@ -224,61 +291,3 @@ Metrics 데이터를 수집할 수 있는 특정 API 혹은 프로토콜 등을 
 * 커밋
   * [Fix Remove checking statusText when response status is 200 in ServiceConfig, AgentControl and GridLayoutRenderer](https://github.com/jaegeunha94/cloudhub/commit/46bf191c032f3f49b3920854e50f7083e2a5c823)
 
-## 🔖1.4.2
-### Enhancement
-#### Add Support OS ToolTip in Collector Control Tab
-* 변경 이유: Collector Control Tab 화면에서 지원하지 않는 운영체제가 있음
-* 변경 내용: Collector Control Tab에서 OS 운영체제 지원 범위 알려주는 ToolTip UI 추가
-* 커밋
-  * [Add Support OS ToolTip in Collector Control Tab](https://github.com/jaegeunha94/cloudhub/commit/6478ca453aaf0f29c731484ada33c3efcafac75b)
-
-## 🔖1.4.3
-### New Features
-#### Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data
-* 변경 이유: Infrastructure topology 수정 후 저장 버튼을 클릭하지 않고 페이지 이동 시 저장이 불가하므로, 사용자 UX개선을 위해 변경 필요
-* 변경 내용: 브라우저에서 제공하는 window.confirm을 사용하여 페이지 전환 시, 변경 사항을 저장할 지 물어보는 것으로 수정
-  * OK를 누를 경우 변경 사항 저장하고 페이지 이동
-  * Cancel를 누를 경우 변경 사항 저장하지 않고 페이지 이동
-* 커밋
-  * [Add Confirm Dialog Box when leaving infrastructure topology tab with unsaved data](https://github.com/jaegeunha94/cloudhub/commit/886a13bfef96e9e16dde0291e4aff66de7acbdae)
-
-## 🔖1.4.4
-### New Features
-#### Telegraf 분산 처리를 위한 Salt Target Minion 지정 기능 추가
-* 변경 이유
-  * Nginx를 이용하여 Salt 분산을 할 경우, telegraf configuration 파일이 어디에 생성되었는지 알 수 없음
-* 변경 내용
-  * 특정 Collector server에 telegraf conf 파일을 추가/삭제 필요
-  * 변경 내용: Cloudhub 서버 옵션에 target minion을 추가하여 해당 Minion에 파일 생성
-* 커밋
-  * [Telegraf 분산 처리를 위한 Salt Target Minion 지정 기능 추가](https://github.com/jaegeunha94/cloudhub/commit/9bb3c083adcfad3982432ff0950f55597a529fd8)
-
- #### Dashboard 생성 시 정렬 기준(오름차순/내림차순) 추가
- * 변경 이유
-   * 대시보드를 생성할 때 정렬 기준을 선택할 수 없음
- * 변경 내용
-   * Dashboard 정렬 기준 설정하는 UI 추가
-   * Dashboard 정렬 기준 정하는 기능 추가
-* 커밋
-  * [Dashboard 생성 시 정렬 기준(오름차순/내림차순) 추가](https://github.com/jaegeunha94/cloudhub/commit/96104820e92f495c82a0701cb1e22b45035e9c94)
-
-## 🔖1.4.5
-### New Features
-#### Topology 화면에서 IPMI를 통한 서버 별 온도 확인 위한 기능 추가 #421
-* 수정 내용
-  * Collector Server에서 수집한 IPMI 데이터로 서버별 온도(IPMI) 표시 기능 추가
-  * 기존 CPU, Memory, Disk를 보여주는 UI 앞에 추가
-  * 보여줄 온도(Inlet/Insde/Outlet )를 설정할 수 있는 레이어 팝업 UI 추가
-* 커밋
-  * [At #421 Add Temperature monitoring feature in Topology](https://github.com/jaegeunha94/cloudhub/commit/e675461c431e55f9b0d67820ade67e55ca51f083)
-  * [At #421 Add temperature status in topology](https://github.com/jaegeunha94/cloudhub/commit/29b855b318e65de5d7eb6e4262b512eca258c0e7)
-  * [At #421 Modify max/min value from parseInt to parseFloat](https://github.com/snetsystems/cloudhub/commit/c79fe31cb5981d38b68f1735a54afb36a85a726d)
-  * [#421 Fix conditional statement when getting temperature indicator in topology preferences](https://github.com/snetsystems/cloudhub/commit/f5c409ccc387b939378fcf673072d34a3196f257)
-  * [#At #421 Modify preference popup's cancel button event in Topology](https://github.com/snetsystems/cloudhub/commit/a3d74d71b12a4c1b17df9ef759296f542d21bc18)
-  * [At #421 Modify Temperature Preferences UI](https://github.com/snetsystems/cloudhub/commit/1d5df63ebabbc2d4d37999fce0a921cc5142c810])
-  * [At #421 Modify the label name of the radio button from 'inside' to 'CPU'](https://github.com/snetsystems/cloudhub/commit/03b0d26b7a253e9d7d40b80c95519d9f8ae93245)
-
-## 🔖1.5.0
-### New Features
-* 수정 내용
-  * Visualization 통계 그래프 추가
