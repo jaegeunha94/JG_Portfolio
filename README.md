@@ -141,6 +141,7 @@
 * Configuration
     * [TagPass](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/Configuration/TagPass.md)
 * [Debug Environment for Telegraf](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/DebugEnvironmentforTelegraf)
+* [GPU Monitoring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/GPU_Monitoring)
 * [IPMI](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Telegraf/IPMI)
 
 # Programming Language
