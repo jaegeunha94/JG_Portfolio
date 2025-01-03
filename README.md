@@ -5,6 +5,24 @@
 
 또한, 향후 비슷한 상황이 발생했을 때 신속하고 효율적으로 대처할 수 있도록 하는 것을 목표로 하고 있습니다.
 
+# 온라인/오프라인 강의 수강 이력
+## 온라인 강의
+- **Next.js 강의**  
+  강사: 이정환  
+  [수강 링크](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%ED%81%AC%EA%B8%B0-nextjs?attributionToken=jAHwiwoMCKjQ37sGEJHUirgCEAEaJDY3YTJjZjNmLTAwMDAtMjYzYS05M2I1LTg4M2QyNGY2ZWI4OCoGNTg3NzEyMjCjgJciwvCeFdSynRWOvp0VtreMLajlqi3Fy_MXkPeyMJruxjCOkckwn9a3LZzWty06DmRlZmF1bHRfc2VhcmNoQAFIAVgBaAF6AnNp)
+
+- **RAG (Retrieval-Augmented Generation) 강의**  
+  강사: 테디노트  
+  [수강 링크](https://fastcampus.co.kr/data_online_teddy)
+
+- **TypeScript 강의**  
+  강사: Zerocho  
+  [수강 링크](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
+
+## 오프라인 강의
+- **Prompt Engineering 강의**  
+  강사: 강수진
+
 # Project
 ## [CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
 ![cloudhub](./Project/CloudHub/cloudhub.PNG)
