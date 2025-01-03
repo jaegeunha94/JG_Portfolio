@@ -9,19 +9,23 @@
 ## 온라인 강의
 - **Next.js 강의**  
   강사: 이정환  
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%EC%9D%B4%EC%A0%95%ED%99%98_NextJS.pdf)
   [수강 링크](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%ED%81%AC%EA%B8%B0-nextjs?attributionToken=jAHwiwoMCKjQ37sGEJHUirgCEAEaJDY3YTJjZjNmLTAwMDAtMjYzYS05M2I1LTg4M2QyNGY2ZWI4OCoGNTg3NzEyMjCjgJciwvCeFdSynRWOvp0VtreMLajlqi3Fy_MXkPeyMJruxjCOkckwn9a3LZzWty06DmRlZmF1bHRfc2VhcmNoQAFIAVgBaAF6AnNp)
 
 - **RAG (Retrieval-Augmented Generation) 강의**  
   강사: 테디노트  
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%ED%85%8C%EB%94%94%EB%85%B8%ED%8A%B8_RAG.pdf)
   [수강 링크](https://fastcampus.co.kr/data_online_teddy)
 
 - **TypeScript 강의**  
   강사: Zerocho  
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript.pdf)
   [수강 링크](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
 
 ## 오프라인 강의
 - **Prompt Engineering 강의**  
   강사: 강수진
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%EA%B0%95%EC%88%98%EC%A7%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81.pdf)
 
 # Project
 ## [CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
