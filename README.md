@@ -5,6 +5,8 @@
 
 또한, 향후 비슷한 상황이 발생했을 때 신속하고 효율적으로 대처할 수 있도록 하는 것을 목표로 하고 있습니다.
 
+<br/> <br/> 
+
 # 온라인/오프라인 강의 수강 이력
 ## 온라인 강의
 - **Next.js 강의**  
@@ -27,9 +29,13 @@
   강사: 강수진
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%EA%B0%95%EC%88%98%EC%A7%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81.pdf)
 
+<br/> <br/> 
+
 # Project
 ## [CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
 ![cloudhub](./Project/CloudHub/cloudhub.PNG)
+
+<br/> <br/> 
 
 # Database
 ## [InfluxDB](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB)
