@@ -9,20 +9,36 @@
 
 # 온라인/오프라인 강의 수강 이력
 ## 온라인 강의
+- **HTTP 강의**  
+  강사: 김영한
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%E1%84%80%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%92%E1%85%A1%E1%86%AB_HTTP.pdf)
+  [강의 링크](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
+
 - **Next.js 강의**  
   강사: 이정환  
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%EC%9D%B4%EC%A0%95%ED%99%98_NextJS.pdf)
-  [수강 링크](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%ED%81%AC%EA%B8%B0-nextjs?attributionToken=jAHwiwoMCKjQ37sGEJHUirgCEAEaJDY3YTJjZjNmLTAwMDAtMjYzYS05M2I1LTg4M2QyNGY2ZWI4OCoGNTg3NzEyMjCjgJciwvCeFdSynRWOvp0VtreMLajlqi3Fy_MXkPeyMJruxjCOkckwn9a3LZzWty06DmRlZmF1bHRfc2VhcmNoQAFIAVgBaAF6AnNp)
+  [강의 링크](https://www.inflearn.com/course/%ED%95%9C%EC%9E%85-%ED%81%AC%EA%B8%B0-nextjs?attributionToken=jAHwiwoMCKjQ37sGEJHUirgCEAEaJDY3YTJjZjNmLTAwMDAtMjYzYS05M2I1LTg4M2QyNGY2ZWI4OCoGNTg3NzEyMjCjgJciwvCeFdSynRWOvp0VtreMLajlqi3Fy_MXkPeyMJruxjCOkckwn9a3LZzWty06DmRlZmF1bHRfc2VhcmNoQAFIAVgBaAF6AnNp)
 
 - **RAG (Retrieval-Augmented Generation) 강의**  
   강사: 테디노트  
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%ED%85%8C%EB%94%94%EB%85%B8%ED%8A%B8_RAG.pdf)
-  [수강 링크](https://fastcampus.co.kr/data_online_teddy)
+  [강의 링크](https://fastcampus.co.kr/data_online_teddy)
+
+- **React 강의**  
+  강사: Zerocho
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_React.pdf)
+  [강의 링크](https://www.inflearn.com/course/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-%EC%8B%A4%EC%8B%9C%EA%B0%84%EC%B1%84%ED%8C%85)
 
 - **TypeScript 강의**  
   강사: Zerocho  
-  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript.pdf)
-  [수강 링크](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_1.pdf)
+  [수료증 2](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_2.pdf)
+  [강의 링크](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
+
+- **Webpack 강의**  
+  강사: 장기효  
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%80%E1%85%B5%E1%84%92%E1%85%AD_Webpack.pdf)
+  [강의 링크](https://www.inflearn.com/course/%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9%ED%8C%A9)
 
 ## 오프라인 강의
 - **Prompt Engineering 강의**  
