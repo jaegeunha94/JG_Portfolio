@@ -162,6 +162,9 @@
 ## SNMP
 * [SNMP Version Authentication](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Network/SNMP/SNMP_Version_Authentication.md)
 
+### SNMP TroubleShoot
+* [Polling Delay](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Network/SNMP/TroubleShoot/PollingDelay.md)
+
 # OpenSource
 ## ETCD
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
