@@ -48,7 +48,7 @@
 
 ## 오프라인 강의
 - **Prompt Engineering 강의**  
-  강사: 강수진
+  강사: 강수진  
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/%EA%B0%95%EC%88%98%EC%A7%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81.pdf)
 
 <br/> <br/> 
