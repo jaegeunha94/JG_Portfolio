@@ -29,6 +29,11 @@
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_React.pdf)  
   [강의 링크](https://www.inflearn.com/course/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9-%EC%8B%A4%EC%8B%9C%EA%B0%84%EC%B1%84%ED%8C%85)
 
+- **React 강의**  
+  강사: 김정환  
+  [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/김정환_React.pdf)  
+  [강의 링크](https://www.inflearn.com/course/%EB%A7%8C%EB%93%A4%EB%A9%B4%EC%84%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%8A%94-%EB%A6%AC%EC%95%A1%ED%8A%B8/dashboard)
+
 - **TypeScript 강의**  
   강사: Zerocho  
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_1.pdf)  
