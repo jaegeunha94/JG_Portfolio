@@ -32,8 +32,9 @@
 - **TypeScript 강의**  
   강사: Zerocho  
   [수료증](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_1.pdf)  
-  [수료증 2](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_2.pdf)
-  [강의 링크](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
+  [강의 링크 1](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-1)  
+  [수료증 2](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Course/Zerocho_Typescript_2.pdf)  
+  [강의 링크 2](https://www.inflearn.com/course/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%98%AC%EC%9D%B8%EC%9B%90-2)
 
 - **Webpack 강의**  
   강사: 장기효  
