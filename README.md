@@ -54,7 +54,7 @@
 <br/> <br/> 
 
 # Project
-## [CloudHub](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
+## [CloudHub (에스넷시스템 재직 시 참여한 오픈소스 프로젝트)](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Project/CloudHub)
 ![cloudhub](./Project/CloudHub/cloudhub.PNG)
 
 <br/> <br/> 
