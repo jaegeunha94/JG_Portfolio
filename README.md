@@ -226,7 +226,7 @@
 
 # Server
 ## Server TroubleShoot
-- [Selinux Denied Logrotate](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Linux/TroubleShoot/SELinux_Denied_Logrotate.md)
+- [SELinux Denied Logrotate](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Linux/TroubleShoot/SELinux_Denied_Logrotate.md)
 
 ## KeepAlived
 * [KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived)
