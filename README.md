@@ -72,34 +72,34 @@
 
 ### InfluxDB TroubleShoot
 * [Handling Missing Values](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Handling_Missing_Values.md)
-* [Retention Policy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
-* [Regex Query Fix](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Regex_query_fix.md)
-* [Tag Values Not Expiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
-* [Timezone Aggregation Misconception](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/TroubleShoot/Timezone_Aggregation_Misconception.md)
+* [Configuring Data Retention Policies](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
+* [Fixing Regex Queries](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Regex_query_fix.md)
+* [Troubleshooting Unexpired Tag Values](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
+* [Correcting Timezone Aggregation Issues](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Database/InfluxDB/TroubleShoot/Timezone_Aggregation_Misconception.md)
 
 ## MariaDB
 ### MariaDB TroubleShoot
-* [Too Many Connections](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/MariaDB/TroubleShoot/TooManyConnections.md)
+* [Resolving Connection Limit Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/MariaDB/TroubleShoot/TooManyConnections.md)
 
 ## Oracle
 ### Oracle TroubleShoot
 * [Check Instance Name](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/CheckInstanceName.md)
-* [Listener supports no services](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/Listener_supports_no_services.md)
+* [Fixing Listener Service Support Issues](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/Oracle/TroubleShoot/Listener_supports_no_services.md)
 
 # Docker
 ## Docker TroubleShoot
-* [Build Env](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
+* [Building Docker Environment](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/BuildEnv.md)
 * [Check Docker Image CPU Architecture](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/CheckImageCPUArchitecture.md)
-* [Container Memory Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
-* [Dangling Image](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
-* [IP Tables Failed Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
+* [Adjusting Docker Container Memory Limits](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/ContainerMemoryLimit.md)
+* [Removing Dangling Docker Images](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/Dangling_Image.md)
+* [Resolving IP Tables Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/TroubleShoot/iptables_failed.md)
 
 ## Docker-Compose
 * [Docker-Compose Version 1 Install](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Docker/Docker-Compose/v1_Install)
 * [Docker Compose Version 2](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/v2/README.md)
 
 ### Docker-Compose TroubleShoot
-* [Docker-compose Permission](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
+* [Fixing Docker-Compose Permission Issues](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Docker/Docker-Compose/TroubleShoot/docker-compose_Permission.md)
 
 # Frontend
 * [Engyme](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Frontend/Test/Jest/Engyme)
@@ -109,26 +109,26 @@
 
 ## CSS
 ### CSS TroubleShoot
-* [Opacity Error In React](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/CSS/TroubleShoot/OpacityErrorInReact.md)
+* [Resolving Opacity Issues in React Components](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/CSS/TroubleShoot/OpacityErrorInReact.md)
 
 ## NodeJS
 * [Conda Environment](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/CondaEnvironment)
 
 ### NodeJS TroubleShoot
-* [could not find a version of VisualStudio2017](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/couldnotfindaversionofVisualStudio2017.md)
-* [not defined npm config node gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
+* [Fixing Visual Studio 2017 Version Not Found Errors](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/couldnotfindaversionofVisualStudio2017.md)
+* [Resolving Undefined npm Config for Node-Gyp](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Frontend/NodeJS/TroubleShoot/not_defined_npm_config_node_gyp.md)
 
 # Git
 ## Git TroubleShoot
-* [CRLF, LF Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/CRLF_LF.md)
-* [Tag Synchronization Issue](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue.md)
+* [Resolving Line Ending (CRLF, LF) Conflicts](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/CRLF_LF.md)
+* [Fixing Git Tag Synchronization Errors](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Git/TroubleShoot/Tag_Synchronization_Issue.md)
 
 # Kubernetes
 ## Kubernetes TroubleShoot
 * [Delete Pod Restart Always](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Delete_Pod_Restart_Always.md)
-* [Join Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
+* [Fixing Cluster Join Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/JoinError.md)
 * [Reset](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/Reset.md)
-* [TLS Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/TLS_Error.md)
+* [Troubleshooting TLS Configuration Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Kubernetes/TroubleShoot/TLS_Error.md)
 
 # Library
 ## Javascript
@@ -139,7 +139,7 @@
 * [ChartJS](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS)
 
 #### ChartJS TroubleShoot
-* [Show Zero Value In Bar Graph](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
+* [Displaying Zero Values in Bar Charts](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/ChartJS/TroubleShoot/ShowZeroValueInBarGraph.md)
 
 ### Cron Parser
 * [Cron Parser](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/Javascript/cron-parser)
@@ -155,7 +155,7 @@
 
 ### mxGraph
 #### mxGraph TroubleShoot
-* [Outline_LabelsVisible](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxGraph/TroubleShoot/Outline_LabelsVisible.md)
+* [Outline_Labels Visible Option](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Library/Javascript/mxGraph/TroubleShoot/Outline_LabelsVisible.md)
 
 ## React
 * [React Chart Library](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Library/React/React_Chart)
@@ -179,7 +179,7 @@
 
 ### ETCD TroubleShoot
 * [Auto Compaction Retention](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/Auto_Compaction_Retention.md)
-* [ClusterID Mistmatch](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
+* [Fixing Cluster ID Mismatch Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/TroubleShoot/ClusterID_Mistmatch.md)
 
 ## [Kapacitor](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor) 
 * [Tickscript_Batch_Sum](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/Kapacitor/Tickscript_Batch_Sum)
@@ -217,7 +217,7 @@
 
 ## Python
 ### Python TroubleShoot
-* [Version 2.x](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
+* [Handling Unsupported Python 2.x Versions](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Python/TroubleShoot/Version_2.x.md)
 
 # Security
 ## PKI
@@ -227,13 +227,13 @@
 
 # Server
 ## Server TroubleShoot
-- [SELinux Denied Logrotate](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Linux/TroubleShoot/SELinux_Denied_Logrotate.md)
+- [Fixing SELinux Logrotate Denial Issues](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Linux/TroubleShoot/SELinux_Denied_Logrotate.md)
 
 ## KeepAlived
 * [KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/KeepAlived)
 
 ### KeepAlived TroubleShoot
-* [Receive Advertisement Timeout](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Server/KeepAlived/TroubleShoot/ReceiveAdvertisementTimeout.md)
+* [Resolving Advertisement Timeout in KeepAlived](https://github.com/jaegeunha94/JG_Portfolio/blob/main/Server/KeepAlived/TroubleShoot/ReceiveAdvertisementTimeout.md)
 
 ## Nginx
 * [Nginx](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx)
@@ -242,7 +242,7 @@
 * [Nginx Configuration](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/Configuration)
 
 ### Nginx TroubleShoot
-* [Client Max Body Size](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/ClientMaxBodySize.md)
+* [Increasing Client Max Body Size Limit](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/ClientMaxBodySize.md)
 * [Location Querystring Redirection](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/Location_Querystring_Redirection.md)
 * [Port Binding Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/PortBindingError.md)
 * [Proxy Buffering Off](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Server/Nginx/TroubleShoot/proxy_buffering_off.md)
@@ -250,4 +250,4 @@
 # Virtual
 ## Oracle VM VirtualBox
 ### Oracle VM VirtualBox TroubleShoot
-* [Host-Only Network Adapter Error](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Virtual/OracleVMVirtualBox/TroubleShoot/Host-OnlyNetworkAdapterError.md)
+* [Fixing Host-Only Network Adapter Errors](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Virtual/OracleVMVirtualBox/TroubleShoot/Host-OnlyNetworkAdapterError.md)
