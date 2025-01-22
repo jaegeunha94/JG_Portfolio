@@ -71,6 +71,7 @@
 * [Managing User](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/User/ManagingUser.md)
 
 ### InfluxDB TroubleShoot
+* [Missing Value](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Handling_Missing_Values.md)
 * [Retention Policy](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/RetentionPolicy.md)
 * [Regex Query Fix](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/Regex_query_fix.md)
 * [Tag Values Not Expiring](https://github.com/jaegeunha94/JG_Portfolio/tree/main/Database/InfluxDB/TroubleShoot/TagValuesNotExpiring.md)
