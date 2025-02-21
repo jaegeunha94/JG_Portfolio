@@ -212,6 +212,9 @@
 ## Go
 * [Miniconda](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Go/Miniconda)
 
+### Go TroubleShoot
+* [Go Build Command Environment Variable Issue](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/Go/TroubleShoot/BuildCommand_EnvironmentVariable_Issue.md)
+
 ## HTML
 * [Canvas](https://github.com/jaegeunha94/JG_Portfolio/tree/main/ProgrammingLanguage/HTML/Canvas/README.md)
 
