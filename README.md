@@ -174,6 +174,10 @@
 
 
 # OpenSource
+## Elastic Search
+### Elastic Search TroubleShoot
+- [Search Result Pagination Problem](https://github.com/jaegeunha94/JG_Portfolio/blob/main/OpenSource/ElasticSearch/TroubleShoot/SearchResult_Pagination.md)
+
 ## ETCD
 * [Clustering](https://github.com/jaegeunha94/JG_Portfolio/tree/main/OpenSource/ETCD/Clustering)
 
