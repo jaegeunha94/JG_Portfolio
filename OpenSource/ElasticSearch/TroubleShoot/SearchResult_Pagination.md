@@ -60,7 +60,7 @@ Elasticsearch에서 대량의 검색 결과를 페이지 단위로 효율적으�
 ## 3. PIT 미적용(순수 Search After) 시 고려사항
 PIT 없이 `search_after`만 사용할 때 반드시 유의해야 할 두 가지 이슈
 
-### 1. 인덱스 스냅샷 불일치
+### 3-1. 인덱스 스냅샷 불일치
 * Elasticsearch는 기본적으로 1초 단위로 인덱스 refresh를 수행
 * 시나리오
     1. 첫 페이지 조회: `@timestamp` 기준 내림차순, 마지막 문서의 sort 값
@@ -73,7 +73,7 @@ PIT 없이 `search_after`만 사용할 때 반드시 유의해야 할 두 가지
     * A가 sort\_after보다 앞쪽에 위치하면 누락(skip)
     * A가 뒤쪽에 위치하면 중복(include)
 
-### 2. 정렬 안정성(Stable Sort)의 한계
+### 3-2. 정렬 안정성(Stable Sort)의 한계
 * `_seq_no` + `_primary_term` tiebreak를 사용해도, refresh 후 세그먼트(segment)가 변경되면 `_seq_no` 값이 바뀔 수 있어 순서 보장이 깨질 수 있습니다.
 * 결과적으로 “같은 타임스탬프 그룹” 내 문서 순서가 페이지 간에 뒤섞일 가능성이 존재
 
